@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. Ostwald's viscometer is used to describe the viscosity of which fluids ?",
+      "question": "Ostwald's viscometer is used to describe the viscosity of which fluids ?",
       "answers": {
         "a": "Newtonian",
         "b": "Non- newtonian",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2. Fluid A has a flow rate of 9.1ml, per second. Fluid B has a flow rate of 11.3 ml, per second. Compared to fluid A, fluid B has.....",
+      "question": "Fluid A has a flow rate of 9.1ml, per second. Fluid B has a flow rate of 11.3 ml, per second. Compared to fluid A, fluid B has.....",
       "answers": {
         "a": "higher viscosity",
         "b": "lower viscosity",

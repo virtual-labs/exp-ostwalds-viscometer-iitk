@@ -1,0 +1,137 @@
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+} */
+
+.viscometer {
+  position: relative;
+  /* transform: translate(-158px, -116px); */
+}
+
+/*--------------- multiple targets -------*/
+.left-tube,
+.left-bulb,
+.above-tube,
+.below-tube,
+.right-bulb {
+  background-color: rgba(217, 217, 217, 0.75);
+}
+
+/*---------- left tube------------------- */
+.left-tube {
+  height: 290px;
+  width: 12px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.left-bulb {
+  height: 60px;
+  width: 35px;
+  border-radius: 50%;
+  transform: translate(-11px, -2px);
+}
+
+/*------------- right tube ---------------*/
+/* .above-tube,
+.below-tube,
+.right-bulb {
+  position: relative;
+} */
+
+.right {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -15px;
+}
+
+.above-tube,
+.below-tube {
+  width: 8px;
+}
+
+.above-tube {
+  height: 80px;
+  border-top-left-radius: 3.5px;
+  border-top-right-radius: 3.5px;
+}
+
+.right-bulb {
+  position: relative;
+  height: 40px;
+  width: 25px;
+  border-radius: 50%;
+  transform: translate(-8px, -2px);
+}
+
+.below-tube {
+  height: 232px;
+  transform: translate(0, -4px);
+}
+
+/* -----------------markings----------------------------------*/
+
+.right > h2 {
+  position: absolute;
+  top: 110px;
+  left: -1px;
+  width: 50px;
+  color: black;
+}
+
+.right > h2:first-of-type {
+  top: 40px;
+}
+
+/*------------- u-tube -------------------*/
+
+.wrap-u {
+  position: relative;
+  overflow: hidden;
+  transform: translateY(-4px);
+}
+
+.u-tube {
+  opacity: 100%;
+  position: absolute;
+  height: 60px;
+  width: 62px;
+  border: 12px solid aqua;
+  z-index: -50;
+  border-top: 0px;
+  border-radius: 0px 0px 45px 45px;
+}
+
+/* .u-tube {
+    height: 60px;
+    width: 60px;
+  }
+
+.u-tube ::after{
+    content: "";
+    height: 60px;
+    width: 30px;
+    background-color: black;
+}
+   */
+
+/* 3-d effect */
+.left-tube::before,
+.above-tube::before {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 12px;
+  display: block;
+  border-radius: 50%;
+  background: rgba(92, 91, 91, 0.75);
+  top: -2px;
+}
+
+.above-tube::before {
+  height: 6px;
+  width: 8px;
+}

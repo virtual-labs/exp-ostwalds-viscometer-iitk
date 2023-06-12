@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. Which of the following represents viscosity?",
+      "question": "Which of the following represents viscosity?",
       "answers": {
         "a": "Potential energy stored in fluid",
         "b": "Resistance to fluid motion",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2. What happens to the viscosity of liquid with the increase in temperature?",
+      "question": "What happens to the viscosity of liquid with the increase in temperature?",
       "answers": {
         "a": "It increases",
         "b": "It decreases",

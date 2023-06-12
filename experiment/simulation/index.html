@@ -1,13 +1,300 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
+  <head>
+    <title>Ostwald Viscometer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/viscometer.css" />
+    <link rel="stylesheet" href="./css/liquid.css" />
+    <!-- <link rel="stylesheet" href="./css/viscometer-water.css" /> -->
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <div class="procedure">
+        <div class="timer_container">
+          <div class="timer_display">00 : 00 : 00 : 000</div>
+          <div class="controls">
+            <input type="checkbox" class="play" />
+            <button class="reset"></button>
+          </div>
+          <div class="shadow"></div>
+        </div>
+      </div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+      <div class="main_stand">
+        <div class="main_exp">
+          <img
+            width="350"
+            src="./images/stand.png"
+            alt="Your browser doesn't support this image"
+          />
+          <!-- <div class="tube">
+            <img src="./images/tube.png" alt="" />
+          </div> -->
+          <div class="wrap-visco">
+            <button type="button" class="sucker" disabled></button>
+            <div class="viscometer">
+              <div class="left-tube tube">
+                <div class="fluid left-tube-liquid"></div>
+              </div>
+              <div class="left-bulb tube">
+                <div class="fluid left-bulb-liquid"></div>
+              </div>
+              <div class="right">
+                <div class="above-tube tube">
+                  <div class="fluid above-tube-liquid"></div>
+                </div>
+                <div class="right-bulb tube">
+                  <div class="fluid right-bulb-liquid"></div>
+                </div>
+                <div class="below-tube tube">
+                  <div class="fluid below-tube-liquid"></div>
+                </div>
+                <h2 class="marking">
+                  - &nbsp;<span style="color: white">A</span>
+                </h2>
+                <h2 class="marking">
+                  - &nbsp;<span style="color: white">B</span>
+                </h2>
+              </div>
+              <div class="wrap-u">
+                <div class="u-tube tube"></div>
+                <!-- <svg>
+                  <circle cx="50%" cy="50%" r="36" />
+                </svg> -->
+                <div class="overlay-u"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="tube_container">
+        <div class="left_tube"></div>
+        <div class="u_tube">
+          <svg>
+            <circle cx="50%" cy="50%" r="34" />
+          </svg>
+        </div>
+        <div class="right_tube"></div>
+      </div> -->
+
+      <div class="beakers">
+        <div class="water beaker">
+          <div class="beaker_container">
+            <img src="./images/water_beaker.png" alt="" />
+            <div class="liquid water_liquid"></div>
+          </div>
+        </div>
+        <div class="ethyl beaker">
+          <div class="beaker_container">
+            <img src="./images/ethyl_beaker.png" alt="" />
+            <div class="liquid ethyl_liquid"></div>
+          </div>
+        </div>
+        <div class="methyl beaker">
+          <div class="beaker_container">
+            <img src="./images/methyl_beaker.png" alt="" />
+            <div class="liquid methyl_liquid"></div>
+          </div>
+        </div>
+        <div class="benzene beaker">
+          <div class="beaker_container">
+            <img src="./images/benzene_beaker.png" alt="" />
+            <div class="liquid benzene_liquid"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pippet">
+        <div class="pippet_set">
+          <div class="hand_gripped">
+            <img draggable="false" src="./images/hand_gripped.svg" alt="" />
+          </div>
+          <div class="hand_open">
+            <img src="./images/hand_open.svg" alt="" />
+          </div>
+          <div class="pippet_img">
+            <img src="./images/pippete.png" alt="" />
+            <div class="pippet_fluid_container">
+              <div class="pippet_fluid"></div>
+              <div class="pippet_tip"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="next" disabled>Perform next trial</button>
+    </div>
+    <div class="final">
+      <table>
+        <tr>
+          <th>Trial 1</th>
+          <th>Trial 2</th>
+          <th>Trial 3</th>
+        </tr>
+        <tr>
+          <td class="t1">00 : 000</td>
+          <td class="t2">00 : 000</td>
+          <td class="t3">00 : 000</td>
+        </tr>
+      </table>
+    </div>
+    <div class="instruction">
+      <div class="accordion" id="accordionContainer">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#stepOne"
+              aria-expanded="true"
+              aria-controls="stepOne"
+            >
+              General Instruction
+            </button>
+          </h2>
+          <div
+            id="stepOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionContainer"
+          >
+            <div class="accordion-body">
+              <ol>
+                <li>Hover over any part/instrument to see its identity.</li>
+                <li>
+                  Please make sure the stopwatch is resetted before calculating
+                  time of eflux for any trial.
+                </li>
+                <li>
+                  The sucker tube is disabled by default and only be active the
+                  initial fill of tube at every trial.
+                </li>
+                <li>
+                  The temperature is set to 30 degress celcius and will remain
+                  constant throughout the experiment.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#stepTwo"
+              aria-expanded="true"
+              aria-controls="stepTwo"
+            >
+              Liquid selection
+            </button>
+          </h2>
+          <div
+            id="stepTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionContainer"
+          >
+            <div class="accordion-body">
+              <p>
+                Click on desired liquid's beaker to fill the respective liquid
+                into the tube.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#stepThree"
+              aria-expanded="true"
+              aria-controls="stepThree"
+            >
+              Liquid suction
+            </button>
+          </h2>
+          <div
+            id="stepThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionContainer"
+          >
+            <div class="accordion-body">
+              <p>
+                1. Click on the sucker tube to suck out the liquid upto mark A.
+              </p>
+              <p>
+                2. Liquid should be at point A before you start descending it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#stepFour"
+              aria-expanded="true"
+              aria-controls="stepFour"
+            >
+              Descending the liquid
+            </button>
+          </h2>
+          <div
+            id="stepFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionContainer"
+          >
+            <div class="accordion-body">
+              <p>
+                1. When the liquid is at position A, click on the stopwatch play
+                button to gradually descend the liquid.
+              </p>
+              <p>
+                2. Pause the stopwatch at the moment when the liquid passes
+                point B
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <button id="reset-viscometer">restart</button> -->
+    <script src="./js/timer.js"></script>
+    <!-- <script src="./js/viscometer.js"></script> -->
+    <script src="./js/pippet_animation.js"></script>
+    <script src="./js/liquid.js"></script>
+  </body>
 </html>
