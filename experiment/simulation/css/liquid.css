@@ -1,0 +1,198 @@
+.tube {
+  position: relative;
+  overflow: hidden;
+}
+
+.fluid {
+  background-color: aqua;
+  position: absolute;
+}
+
+.overlay-u {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 62px;
+  z-index: 50;
+  border: 12px solid rgba(217, 217, 217, 0.85);
+  border-top: 0px;
+  border-radius: 0px 0px 45px 45px;
+  animation: var(--u-tube);
+  /* reset_viscometer_u-tube 0.1s 20s 1 forwards; */
+}
+
+.left-tube-liquid {
+  height: 20px;
+  bottom: -20px;
+  width: inherit;
+  animation: var(--left-tube);
+}
+
+.left-bulb-liquid {
+  height: 70px;
+  width: inherit;
+  bottom: -70px;
+  animation: var(--left-bulb);
+}
+
+.above-tube-liquid {
+  height: 40px;
+  width: inherit;
+  bottom: -40px;
+  animation: var(--above-tube);
+}
+
+.right-bulb-liquid {
+  height: inherit;
+  width: inherit;
+  bottom: -38px;
+  animation: var(--right-bulb);
+}
+
+.below-tube-liquid {
+  height: inherit;
+  width: inherit;
+  bottom: -232px;
+  animation: var(--below-tube);
+}
+
+@keyframes u-tube-flow {
+  0% {
+    border-color: rgba(217, 217, 217, 0.85);
+  }
+  50% {
+    /* height: 0; */
+    border-bottom: 0;
+    border-color: rgba(217, 217, 217, 0.75);
+    top: 7px;
+    left: 7px;
+    opacity: 0;
+  }
+  100% {
+    top: 7px;
+    border-right-width: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgba(217, 217, 217, 0.75);
+  }
+}
+
+@keyframes reset_viscometer_u-tube {
+  from {
+    top: 0;
+    left: 0;
+    border: 12px solid rgba(217, 217, 217, 0.75);
+    border-top: 0px;
+  }
+  to {
+    top: 0;
+    left: 0;
+    /* opacity: 1; */
+    border: 12px solid rgba(217, 217, 217, 0.75);
+    border-top: 0px;
+  }
+}
+
+@keyframes below-tube-fill-mid {
+  0% {
+    bottom: -232px;
+  }
+  100% {
+    bottom: -115px;
+  }
+}
+
+@keyframes left-bulb-fill {
+  0% {
+    bottom: -70px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+@keyframes left-tube-fill-forwards {
+  0% {
+    height: 20px;
+  }
+  100% {
+    height: 80px;
+  }
+}
+
+@keyframes left-tube-fill-backwards {
+  0% {
+    height: 80px;
+  }
+  100% {
+    height: 30px;
+  }
+}
+
+@keyframes below-tube-fill-full {
+  0% {
+    bottom: -115px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+@keyframes right-bulb-up {
+  0% {
+    bottom: -38px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+@keyframes above-tube-up {
+  0% {
+    bottom: -40px;
+  }
+  100% {
+    bottom: -25px;
+  }
+}
+
+@keyframes above-tube-down {
+  0% {
+    bottom: -25px;
+  }
+  100% {
+    bottom: -40px;
+  }
+}
+
+@keyframes right-bulb-down {
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: -38px;
+  }
+}
+
+@keyframes below-tube-fill-down {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: -20px;
+  }
+  100% {
+    bottom: -115px;
+  }
+}
+
+@keyframes left-tube-fillback {
+  0% {
+    height: 30px;
+  }
+  100% {
+    height: 80px;
+  }
+}
