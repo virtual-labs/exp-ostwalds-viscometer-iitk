@@ -7,8 +7,7 @@
 <b> Experiment|     <b> 1. Determination of viscosity by Ostwald's Viscometer
 ### About the Experiment 
 
-Fill a brief description of this experiment here
-
+Ostwald Viscometry is simple method for the measurement of viscosity in which viscosity of a liquid is measured by comparing the viscosity of an unknown liquid with that of the known liquid. In this method, viscosity of a liquid is measured by comparing the flow times of two liquids of equal volume using Ostwald viscometer. Usually the reference liquid is water.
 <b>Name of Developer | <b> Rupali Sharma 
 :--|:--|
 <b> Institute | <b>  ABSSIT, Meerut
