@@ -1,0 +1,250 @@
+:root {
+  --left-bulb: none;
+  --left-tube: none;
+  --below-tube: none;
+  --above-tube: none;
+  --right-bulb: none;
+  --u-tube: paused;
+}
+
+.tube {
+  position: relative;
+  overflow: hidden;
+}
+
+.fluid {
+  background-color: aqua;
+  position: absolute;
+}
+
+/*              left tube                 */
+
+.left-tube-liquid {
+  height: 20px;
+  bottom: -20px;
+  width: inherit;
+}
+
+/* ---------------left-bulb-------------- */
+
+.left-bulb-liquid {
+  --anime: -70px;
+  height: 70px;
+  width: inherit;
+  bottom: -70px;
+}
+
+/* ---------------right-tube------------- */
+
+.above-tube-liquid {
+  --anime: -40px;
+  height: 40px;
+  width: inherit;
+  bottom: -40px;
+}
+
+.right-bulb-liquid {
+  --anime: -38px;
+  height: inherit;
+  width: inherit;
+  bottom: -38px;
+}
+
+.below-tube-liquid {
+  --anime: -232px;
+  height: inherit;
+  width: inherit;
+  bottom: -232px;
+}
+
+/*--------------- u - tube --------------*/
+
+.overlay-u {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 62px;
+  z-index: 50;
+  border: 12px solid rgba(217, 217, 217, 0.75);
+  border-top: 0px;
+  border-radius: 0px 0px 45px 45px;
+}
+
+/* .u-tube > .left-water {
+  position: absolute;
+  width: 30px;
+  height: 80px;
+  bottom: -92px;
+  /* transform: rotate(-7deg); */
+/* left: -12px; */
+/*} */
+
+/* .u-tube { */
+/* border-image: linear-gradient( to top,
+      /* rgba(217, 217, 217, 0.75) 1%, */
+/* red 65%
+    )
+    30; */
+/* border-image-source: linear-gradient(to left, rgba(217,217,217,0.75) 35%, aqua);
+  /* border-image-outset: 0ch; */
+/* border-image-repeat: repeat;
+  border-image-slice: 30; */ /**/
+/* border-image-width: 10px; */
+/* } */
+
+/* :root {
+  --x: ;
+  --y: 0;
+} */
+
+/* .u-tube {
+  border-image: linear-gradient(
+      to left,
+      rgba(217, 217, 217, 0.75) 35%,
+      aqua var(--x),
+      rgba(217, 217, 217, 0.75)
+    )
+    12;
+  animation-name: water;
+} */
+
+/* animation */
+
+.overlay-u {
+  /* border-color: aqua; */
+  /* transition: border-color 2s ease-in-out; */
+  animation: u-tube-flow 2s ease-in-out forwards,
+    reset_viscometer_u-tube 0.1s 20s 1 forwards;
+  animation-play-state: var(--u-tube);
+}
+
+.left-bulb-liquid {
+  animation: water-flow 4s ease-in-out 1 forwards,
+    /* reverse-flow 5.5s ease-in-out 4.5s 1 forwards */ water-flow 6.5s
+      ease-in-out 11.5s 1 forwards,
+    reset_viscometer_animation 0.1s 20s 1 forwards;
+}
+
+.left-tube-liquid {
+  /* animation: water-flow 2s ease-in-out 2.5s 1 forwards, */
+  /*   reverse-flow 2s ease-in-out 4s 1 forwards, */
+  /*   water-flow 2s ease-in-out 16s 1 forwards, */
+  /*   reset_viscometer_animation 0.1s 20s 1 forwards; */
+  animation: left-bulb-fill 2s ease-in-out 2.5s forwards;
+}
+
+.below-tube-liquid {
+  /* animation: water-flow 3s ease-in 4s 1 forwards, */
+  /*   reverse-flow 4s ease-in-out 13.5s 1 forwards; */
+  animation: below-tube-fill 3s ease-in-out 0.5s forwards;
+}
+
+.right-bulb-liquid {
+  animation: water-flow 2s ease-in-out 7s 1 forwards,
+    reverse-flow 2s ease-in-out 12s 1 forwards;
+}
+
+.above-tube-liquid {
+  animation: water-flow 2s ease-in-out 8.5s 2 alternate;
+  /* reverse-flow 2s ease 12s 1 forwards; */
+}
+
+/* .left-tube > .fluid, */
+/* .left-bulb > .fluid, */
+/* .above-tube > .fluid, */
+/* .right-bulb > .fluid, */
+/* .below-tube > .fluid, */
+/* .overlay-u { */
+/*   animation-play-state: paused; */
+/* } */
+
+.left-tube-liquid,
+.left-bulb-liquid,
+.overlay-u,
+.right-bulb-liquid,
+.above-tube-liquid,
+.below-tube-liquid {
+  animation-play-state: paused;
+}
+
+@keyframes left-bulb-fill {
+  0% {
+    height: 20px;
+  }
+  100% {
+    height: 80px;
+  }
+}
+
+@keyframes below-tube-fill {
+  0% {
+    bottom: -232px;
+  }
+  100% {
+    bottom: -120px;
+  }
+}
+
+@keyframes water-flow {
+  from {
+  }
+  to {
+    bottom: 0;
+  }
+}
+
+@keyframes reverse-flow {
+  from {
+  }
+  to {
+    bottom: var(--anime);
+  }
+}
+
+@keyframes u-tube-flow {
+  0% {
+    border-color: rgba(217, 217, 217, 0.85);
+  }
+  50% {
+    /* height: 0; */
+    border-bottom: 0;
+    border-color: rgba(217, 217, 217, 0.75);
+    top: 7px;
+    left: 7px;
+    opacity: 0;
+  }
+  100% {
+    top: 7px;
+    border-right-width: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgba(217, 217, 217, 0.75);
+  }
+}
+
+@keyframes reset_viscometer_u-tube {
+  from {
+    top: 0;
+    left: 0;
+    border: 12px solid rgba(217, 217, 217, 0.75);
+    border-top: 0px;
+  }
+  to {
+    top: 0;
+    left: 0;
+    /* opacity: 1; */
+    border: 12px solid rgba(217, 217, 217, 0.75);
+    border-top: 0px;
+  }
+}
+
+@keyframes reset_viscometer_animation {
+  from {
+    bottom: var(--anime);
+  }
+  to {
+    bottom: var(--anime);
+  }
+}
