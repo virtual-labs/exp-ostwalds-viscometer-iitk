@@ -10,7 +10,7 @@
 Ostwald Viscometry is simple method for the measurement of viscosity in which viscosity of a liquid is measured by comparing the viscosity of an unknown liquid with that of the known liquid. In this method, viscosity of a liquid is measured by comparing the flow times of two liquids of equal volume using Ostwald viscometer. Usually the reference liquid is water.
 <b>Name of Developer | <b> Rupali Sharma 
 :--|:--|
-<b> Institute | <b>  ABSSIT, Meerut
+<b> Institute | <b>  Meerut Institute of Engineering and Technology
 <b> Email id|     <b>  rupalisharma2711@gmail.com
 <b> Department |  <b> Department of Pharmacy
 
