@@ -11,7 +11,7 @@ Ostwald Viscometry is simple method for the measurement of viscosity in which vi
 <b>Name of Developer | <b> Anjali Srivastava 
 :--|:--|
 <b> Institute | <b>  Bundelkhand University, Jhansi
-<b> Email id|     <b>  
+<b> Email id|     <b>  bu.ganjali@bujhansi.ac.in
 <b> Department |  <b> Department of Pharmacy
 
 ### Contributors List
