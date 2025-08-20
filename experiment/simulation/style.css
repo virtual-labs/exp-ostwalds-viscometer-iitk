@@ -1,0 +1,687 @@
+/* Mobile devices (landscape only) */
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+    /* styles here */
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* width: 98vmax;
+    height: 1vmax; */
+    height: 9%;
+    width: 100%;
+    background: linear-gradient(to right, #d6cfd0, #3b3b3b);
+}
+
+.main{
+    height: 45.7vmax;
+    width: 99.8vmax;
+    position: relative;
+    overflow: hidden;
+}
+/* =======================header======================= */
+.header{
+    border: 1px solid black;
+    background: linear-gradient(to right, #b1c9cc, #a7bdbf);
+    height: 3vmax;
+    width: 99.9vmax; 
+    position: absolute;
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+}
+
+#ins{
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 1%;
+}
+
+#text{
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: rgb(251, 255, 8);
+    padding-left: 1% ;
+}
+/* =======================footer / Expriments======================= */
+.footer{
+    position: absolute;
+    align-items: center;
+    top: 3vmax;
+    height: 42.8vmax;
+    width: 100%;
+    overflow: hidden;
+}
+
+#experiment{
+    /* top: 8%; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* border: 1px solid black; */
+    /* visibility: hidden; */
+    overflow: hidden;
+}
+/* =======================instrumetnts code ======================= */
+/* ----------------Background-- ---------------------- */
+#Background{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    visibility: visible;    
+
+}
+/* ----------------empty Ostwalt Viscometer- ---------------------- */
+#initialOstwaltViscometer {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    opacity: 100%;
+  }
+/* ----------------water Ostwalt Viscometer-- ---------------------- */
+#distilledwaterOstwalneck {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull-01 {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull-02 {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull-03 {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull-04 {
+    position: absolute;
+    height: 47%;
+    width: 21.2%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull-05 {
+    position: absolute;
+    height: 47%;
+    width: 21.2%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull-06 {
+    position: absolute;
+    height: 47%;
+    width: 21.2%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull-07 {
+    position: absolute;
+    height: 47%;
+    width: 21.2%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull-08 {
+    position: absolute;
+    height: 47%;
+    width: 21.2%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #distilledwaterOstwalfull-09 {
+    position: absolute;
+    height: 47%;
+    width: 21.2%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+
+  #nullOstwaltViscometer {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+
+/* ----------------turpentine Ostwalt Viscometer-- ---------------------- */
+#turpentineoilOstwaltNeck {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull-01 {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull-02 {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull-03 {
+    position: absolute;
+    height: 47%;
+    width: 20%;
+    top: 43%;
+    left: 9%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull-04 {
+    position: absolute;
+    height: 47%;
+    width: 21.95%;
+    top: 43%;
+    left: 8.8%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull-05 {
+    position: absolute;
+    height: 47%;
+    width: 21.95%;
+    top: 43%;
+    left: 8.8%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull-06 {
+    position: absolute;
+    height: 47%;
+    width: 21.95%;
+    top: 43%;
+    left: 8.8%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull-07 {
+    position: absolute;
+    height: 47%;
+    width: 21.95%;
+    top: 43%;
+    left: 8.8%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull-08 {
+    position: absolute;
+    height: 47%;
+    width: 21.95%;
+    top: 43%;
+    left: 8.8%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+  #turpentineoilOstwaltfull-09 {
+    position: absolute;
+    height: 47%;
+    width: 21.95%;
+    top: 43%;
+    left: 8.8%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+  }
+
+/* ---------------water flask-- ---------------------- */
+#waterflaskneck {
+    position: absolute;
+    height: 35%;
+    width: 8%;
+    top: 58%;
+    left: 39%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
+}
+#waterflaskhalf {
+    position: absolute;
+    height: 35%;
+    width: 8%;
+    top: 58%;
+    left: 39%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+}
+/* ---------------turpentine flask-- ---------------------- */
+#turpentineOilneck {
+    position: absolute;
+    height: 35%;
+    width: 8%;
+    top: 58%;
+    right: 40.5%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%
+}
+#turpentineOilhalf {
+    position: absolute;
+    height: 35%;
+    width: 8%;
+    top: 58%;
+    right: 40.5%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 0%;
+}
+/* ---------------measuring-cylinder- ---------------------- */
+#measuringcylinder200ml {
+    position: absolute;
+    height: 35%;
+    width: 7%;
+    top: 57%;
+    right: 29%;
+    opacity: 100%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
+}
+/* #waterfilled30ml {
+  position: absolute;
+  height: 35%;
+  width: 7%;
+  top: 41.5%;
+  right: 12%;
+  opacity: 0%;
+  transition: all;
+    transition-duration: 1s;
+} */
+#waterfilled60ml {
+  position: absolute;
+  height: 35%;
+  width: 7%;
+  top: 41.5%;
+  right: 12%;
+  opacity: 0%;
+  transition: all;
+    transition-duration: 1s;
+}
+
+/* #turpentineoilfilled30ml {
+  position: absolute;
+  height: 35%;
+  width: 7%;
+  top: 41.5%;
+  right: 12%;
+  opacity: 0%;
+  transition: all;
+    transition-duration: 1s;
+} */
+#turpentineoilfilled50ml {
+  position: absolute;
+  height: 35%;
+  width: 7.1%;
+  top: 41.5%;
+  right: 12%;
+  opacity: 0%;
+  transition: all;
+  transition-duration: 1s;
+    pointer-events: none;
+}
+
+/* ---------------wheighing-machine------------------------ */
+#wheighing-machine {
+    position: absolute;
+    height: 22%;
+    width: 20%;
+    top: 70%;
+    right: 5%;
+}
+/* .wm-button {
+  position: absolute;
+  background-color: red;
+  height: 0.1%;
+  width: 0.1%;
+  color: white;
+  font-size: 1%;
+  font-family: Arial, sans-serif;
+  border: 8px solid #3f3f3f; 
+  border-right: 8px solid black;
+  border-bottom: 8px solid black;
+  border-radius: 10px;
+  padding: 1% 2%;
+  cursor: pointer;
+  box-shadow: inset 0 0 5px #000000;
+  outline: none;
+} */
+#Obutton {
+  position: absolute;
+    top: 82%;
+    right: 20%;
+    color: white;
+    padding: 0.1%;
+    background-color: red;
+    border-radius: 10%;
+    font-size: 0.8vw;
+    transition: all;
+    transition-duration: 1s;
+}
+#Obutton:active{
+  scale: 0.9;
+}
+
+#Tbutton{
+  position: absolute;
+  top: 82%;
+  right: 8%;
+  color: rgb(0, 0, 0);
+  padding: 0.1%;
+  background-color: rgb(238, 245, 42);
+  border-radius: 10%;
+  font-size: 0.8vw;
+  /* box-shadow: none; */
+  transition: all;
+  transition-duration: 1s;
+
+}
+#Tbutton:active{
+  scale: 0.9;
+}
+/* ========================show number======================= */
+#initial0000 {
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  top: 80.5%;
+  right: 12.5%;
+  opacity: 0%;
+  transition: all;
+  transition-duration: 1s;
+}
+#empty2050 {
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  top: 80.5%;
+  right: 12.5%;
+  opacity: 0%;
+  transition: all;
+  transition-duration: 1s;
+}
+#liquid3000 {
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  top: 80.5%;
+  right: 12.5%;
+  opacity: 0%;
+  transition: all;
+  transition-duration: 1s;
+}
+#water6000 {
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  top: 80.5%;
+  right: 12.5%;
+  opacity: 0%;
+  transition: all;
+  transition-duration: 1s;
+}
+#turpentine5040 {
+  position: absolute;
+  height: 5%;
+  width: 5%;
+  top: 80.5%;
+  right: 12.5%;
+  opacity: 0%;
+  transition: all;
+  transition-duration: 1s;
+}
+/* ---------------epippete------------------------ */
+#epippete {
+    position: absolute;
+    height: 30%;
+    width: 1.5%;
+    top: 68%;
+    left: 31%;
+    transition: all 1s ease;
+    rotate: -90deg;
+    opacity: 100%;
+}
+#fpippete {
+    position: absolute;
+    height: 30%;
+    width: 1.5%;
+    top: 68%;
+    left: 31%;
+    transition: all 1s ease;
+    opacity: 0;
+    visibility: hidden;
+    rotate: -90deg;
+    opacity: 0%;
+}
+
+#epippete1 {
+  position: absolute;
+  height: 30%;
+  width: 1.5%;
+  top: 68%;
+  left: 31%;
+  transition: all 1s ease;
+  rotate: -90deg;
+  opacity: 0%;
+}
+#fpippete1 {
+  position: absolute;
+  height: 30%;
+  width: 1.5%;
+  top: 68%;
+  left: 31%;
+  transition: all 1s ease;
+  opacity: 0;
+  rotate: -90deg;
+  
+  opacity: 0%;
+}
+#epippete2 {
+  position: absolute;
+  height: 30%;
+  width: 1.5%;
+  top: 68%;
+  left: 31%;
+  transition: all 1s ease;
+  rotate: -90deg;
+  opacity: 0%;
+}
+#fpippete2 {
+  position: absolute;
+  height: 30%;
+  width: 1.5%;
+  top: 68%;
+  left: 31%;
+  transition: all 1s ease;
+  opacity: 0;
+  rotate: -90deg;
+  opacity: 0%;
+}
+#epippete3 {
+  position: absolute;
+  height: 30%;
+  width: 1.5%;
+  top: 68%;
+  left: 31%;
+  transition: all 1s ease;
+  rotate: -90deg;
+  opacity: 0%;
+}
+#fpippete3 {
+  position: absolute;
+  height: 30%;
+  width: 1.5%;
+  top: 68%;
+  left: 31%;
+  transition: all 1s ease;
+  opacity: 0;
+  rotate: -90deg;
+  opacity: 0%;
+}
+#epippete4 {
+  position: absolute;
+  height: 30%;
+  width: 1.5%;
+  top: 50%;
+  left: 42.2%;
+  transition: all 1s ease;
+  opacity: 0%;
+}
+#fpippete4 {
+  position: absolute;
+  height: 30%;
+  width: 1.5%;
+  top: 50%;
+  left: 42.2%;
+  transition: all 1s ease;
+  opacity: 0%;
+}
+/* ---------------SuckingPipe------------------------ */    
+#SuckingPipe {
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    top: 89%;
+    left: 18%;
+    transition: all;
+    transition-duration: 1s;
+    rotate: 30deg; 
+    opacity: 100%;
+}
+#SuckingPipe1 {
+  position: absolute;
+  height: 10%;
+  width: 5%;
+  top: 89%;
+  left: 18%;
+  transition: all;
+  transition-duration: 1s;
+  rotate: 30deg; 
+  opacity: 0%;
+}
+/* ---------------Text A, B------------------------ */ 
+#textAB {
+  opacity: 0%;
+}
+#text-A {
+  position: absolute;
+    font-size: 20px;
+    top: 49.1%;
+    left: 29.5%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
+    color: rgb(0, 0, 0);
+} 
+#text-B {
+  position: absolute;
+    font-size: 20px;
+    top: 56%;
+    left: 29.5%;
+    transition: all;
+    transition-duration: 1s;
+    opacity: 100%;
+    color: white;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
