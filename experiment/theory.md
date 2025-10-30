@@ -1,4 +1,15 @@
-### **INTRODUCTION** <Br>
-### Ostwald Viscometry is simple method for the measurement of viscosity in which viscosity of a liquid is measured by comparing the viscosity of an unknown liquid with that of the known liquid. In this method, viscosity of a liquid is measured by comparing the flow times of two liquids of equal volume using Ostwald viscometer. Usually the reference liquid is water.
-### **PRINCIPLE** <Br>
-### Ostwald viscometer or viscometer is an instrument that works on the principle of Poiseuille’s law. As per Poiseuille’s law, in the case of the laminar flow of the fluids, the flow rate of the liquid can be denoted as the ratio of pressure difference with respect to the viscous resistance. The value of the viscous resistance varies directly with respect to the viscosity of the fluid and the length of the tube. The resistance of a fluid to its flow is known as viscosity. Equation for viscous force due to flow of liquid is given as; Fv = Ƞ 𝐴𝑣 𝑑 Where Ƞ is called coefficient of viscosity. It is given as; Ƞ = 𝐹𝑑 𝐴𝑣 = 𝑁𝑚𝑠 𝑚2 𝑚 Units: Unit of viscosity is Nm-2 s or Pa.s, other unit for viscosity is poise and; 10 Poise = 1 Pa.s Coefficient of viscosity of water at 0°c is 1.8 mPa.s or 1.8 cP and that of blood is 3-4 mPa.s or cP.
+Viscosity is a measure of a fluid’s internal resistance to flow. It represents the frictional force that resists motion between adjacent layers of a liquid.
+The Ostwald viscometer operates on the principle of Poiseuille’s Law, which states that the rate of flow of a liquid through a capillary tube is directly proportional to the pressure and the fourth power of the radius, and inversely proportional to the viscosity and length of the tube.<br>
+
+η₁ / η₂ = (ρ₁ t₁) / (ρ₂ t₂)<br>
+Where:<br>
+η₁ = Viscosity of the test liquid<br>
+η₂ = Viscosity of water<br>
+ρ₁ = Density of the test liquid<br>
+ρ₂ = Density of water<br>
+t₁ = Flow time of the test liquid<br>
+t₂ = Flow time of water<br><br>
+If the density of both liquids is known, the absolute viscosity (η₁) of the given liquid can be determined using:<br>
+η₁ = η₂ × (ρ₁ t₁) / (ρ₂ t₂)<br><br>
+The viscosity of water at 25°C is approximately 0.89 cP. Temperature plays a critical role — hence the viscometer must be immersed in a constant-temperature water bath to maintain accuracy.
+
