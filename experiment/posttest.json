@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Ostwald's viscometer is used to describe the viscosity of which fluids ?",
+      "question": "1. In the formula η₁ / η₂ = (ρ₁ t₁) / (ρ₂ t₂), η₁ represents:",
       "answers": {
-        "a": "Newtonian",
-        "b": "Non- newtonian",
-        "c": "Dilatant",
-        "d": "None of the above"
+        "a": "Density of test liquid",
+        "b": "Viscosity of test liquid",
+        "c": "Flow time of test liquid",
+        "d": "Viscosity of water"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Fluid A has a flow rate of 9.1ml, per second. Fluid B has a flow rate of 11.3 ml, per second. Compared to fluid A, fluid B has.....",
+      "question": "2.  If the viscosity of water at 25°C is 0.89 cP, and the ratio (ρ₁t₁)/(ρ₂t₂) = 1.5, then the viscosity of the test liquid will be approximately:",
       "answers": {
-        "a": "higher viscosity",
-        "b": "lower viscosity",
-        "c": "equal viscosity",
-        "d": "none of the above"
+        "a": "0.59 cP",
+        "b": "0.89 cP",
+        "c": "1.34 cP",
+        "d": "1.50 cP"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The accuracy of viscosity measurement in an Ostwald viscometer primarily depends on:",
+      "answers": {
+        "a": "Length of the capillary tube only",
+        "b": "Precision in timing and temperature control",
+        "c": "Color of the liquid sample",
+        "d": "Volume of the liquid taken"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Before filling the test liquid, the viscometer must be:",
+      "answers": {
+        "a": "Rinsed with alcohol and water",
+        "b": "Cleaned and completely dried",
+        "c": "Cooled to 0°C",
+        "d": "Preheated to 50°C"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The relative viscosity of a test liquid is determined by comparing:",
+      "answers": {
+        "a": "Its density only with that of water",
+        "b": "Its flow rate with that of water",
+        "c": "The ratio of density and flow time of both liquids",
+        "d": "Its surface tension with that of water"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]

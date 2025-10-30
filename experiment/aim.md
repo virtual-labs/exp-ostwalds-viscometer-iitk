@@ -1,1 +1,1 @@
-### Aim of the experiment is to determine the viscosity of liquid by using Ostwald’s Viscometer. 
+Determination of Viscosity of a Given Liquid Using an Ostwald Viscometer
