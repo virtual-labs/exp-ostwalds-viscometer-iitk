@@ -2,35 +2,86 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which of the following represents viscosity?",
+      "question": "1. The property that represents a liquid’s internal resistance to flow is known as:",
       "answers": {
-        "a": "Potential energy stored in fluid",
-        "b": "Resistance to fluid motion",
-        "c": "Roughness of the surface",
-        "d": "The pressure difference between the two fluids"
+        "a": "Density",
+        "b": "Surface tension",
+        "c": "Viscosity",
+        "d": "Specific gravity"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The Ostwald viscometer works on the principle of:",
+      "answers": {
+        "a": "Bernoulli’s Theorem",
+        "b": "Poiseuille’s Law",
+        "c": "Newton’s Law of Viscosity",
+        "d": "Boyle’s Law"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "What happens to the viscosity of liquid with the increase in temperature?",
+      "question": "3. In an Ostwald viscometer, flow time of a liquid is measured between:",
       "answers": {
-        "a": "It increases",
-        "b": "It decreases",
-        "c": "It may increase or decrease",
-        "d": "No change"
+        "a": "Two pressure points",
+        "b": "Two temperature levels",
+        "c": "Two fixed marks on the viscometer",
+        "d": "Two density values"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The SI unit of viscosity is:",
+      "answers": {
+        "a": "Poise",
+        "b": "Pascal-second (Pa·s)",
+        "c": "dyne·s/cm²",
+        "d": "Newton per meter"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Temperature control is essential during viscosity measurement because:",
+      "answers": {
+        "a": "Viscosity increases with temperature",
+        "b": "Viscosity decreases with temperature",
+        "c": "Density increases with temperature",
+        "d": "Density remains constant with temperature"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
