@@ -1,1 +1,1 @@
-## Viscosity determination of liquids by using Ostwald's viscometer
+## To determine the viscosity of liquid by using Ostwald’s Viscometer
