@@ -24,20 +24,20 @@ This lab is aligned with core and applied courses such as Physical Pharmaceutics
 
 ### Universities Mapped:
 
-Dr. A.P.J. Abdul Kalam Technical University, Lucknow <br>
-Banaras Hindu University (BHU), Varanasi <br>
-Jamia Hamdard University, New Delhi <br>
-Dr. Harisingh Gour Vishwavidyalaya (Central University), Sagar <br>
-Panjab University, Chandigarh <br>
-Jadavpur University, Kolkata <br>
-Bundelkhand University, Jhansi <br>
-Savitribai Phule Pune University (SPPU), Pune <br>
-Osmania University, Hyderabad <br>
-Annamalai University, Chidambaram <br>
-Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal <br>
-Gujarat Technological University (GTU), Ahmedabad <br>
-NIT Rourkela – Department of Biotechnology and Medical Engineering  <br>
-IIT (BHU), Varanasi – School of Biochemical and Pharmaceutical Engineering <br>
+• Dr. A.P.J. Abdul Kalam Technical University, Lucknow <br>
+• Banaras Hindu University (BHU), Varanasi <br>
+• Jamia Hamdard University, New Delhi <br>
+• Dr. Harisingh Gour Vishwavidyalaya (Central University), Sagar <br>
+• Panjab University, Chandigarh <br>
+• Jadavpur University, Kolkata <br>
+• Bundelkhand University, Jhansi <br>
+• Savitribai Phule Pune University (SPPU), Pune <br>
+• Osmania University, Hyderabad <br>
+• Annamalai University, Chidambaram <br>
+• Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal <br>
+• Gujarat Technological University (GTU), Ahmedabad <br>
+• NIT Rourkela – Department of Biotechnology and Medical Engineering  <br>
+• IIT (BHU), Varanasi – School of Biochemical and Pharmaceutical Engineering <br>
 
 
 <b>Name of Developer | <b> Dr. Shashi Alok 
