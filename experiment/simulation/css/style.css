@@ -33,6 +33,7 @@ body{
     display: flex;
     justify-content:first baseline;
     align-items: center;
+    padding-left: 1%;
 }
 
 #ins{
@@ -40,7 +41,9 @@ body{
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
-    padding-left: 1%;
+    left: 5%;
+    font-size: 20%;
+    
 }
 
 #text{
@@ -61,7 +64,7 @@ body{
 
 #experiment{
     /* top: 8%; */
-    height: 100%;
+    height: 92.5%;
     width: 100%;
     position: relative;
     /* border: 1px solid black; */
@@ -86,6 +89,21 @@ body{
     left: 9%;
     opacity: 100%;
   }
+#Ostwald-stand {
+  position: absolute;
+  top: 83.5%;
+  left: 16%;
+  opacity: 100%;
+  font-size: 65%;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.1%;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+}
+
+
+
 /* ----------------water Ostwalt Viscometer-- ---------------------- */
 #distilledwaterOstwalneck {
     position: absolute;
@@ -417,6 +435,18 @@ body{
   transition-duration: 1s;
     pointer-events: none;
 }
+#measuring {
+  position: absolute;
+  top: 93%;
+  left: 64.5%;
+  opacity: 100%;
+  font-size: 60%;
+  text-align: center;
+  background-color: #c5c2c2;
+  padding: 0.1%;
+  border-radius: 3px;
+  font-weight: bold;
+}
 
 /* ---------------wheighing-machine------------------------ */
 #wheighing-machine {
@@ -426,23 +456,18 @@ body{
     top: 70%;
     right: 5%;
 }
-/* .wm-button {
+#weighing {
   position: absolute;
-  background-color: red;
-  height: 0.1%;
-  width: 0.1%;
-  color: white;
-  font-size: 1%;
-  font-family: Arial, sans-serif;
-  border: 8px solid #3f3f3f; 
-  border-right: 8px solid black;
-  border-bottom: 8px solid black;
-  border-radius: 10px;
-  padding: 1% 2%;
-  cursor: pointer;
-  box-shadow: inset 0 0 5px #000000;
-  outline: none;
-} */
+  top: 91%;
+  left: 82%;
+  opacity: 100%;
+  font-size: 60%;
+  text-align: center;
+  background-color: #c5c2c2;
+  padding: 0.1%;
+  border-radius: 3px;
+  font-weight: bold;
+}
 #Obutton {
   position: absolute;
     top: 82%;
@@ -527,6 +552,7 @@ body{
   transition: all;
   transition-duration: 1s;
 }
+
 /* ---------------epippete------------------------ */
 #epippete {
     position: absolute;
@@ -633,6 +659,18 @@ body{
   transition: all 1s ease;
   opacity: 0%;
 }
+#pipette-text {
+  position: absolute;
+  top: 95%;
+  left: 20%;
+  opacity: 100%;
+  font-size: 55%;
+  text-align: center;
+  background-color: #c5c2c2;
+  padding: 0.1%;
+  border-radius: 3px;
+  font-weight: bold;
+}
 /* ---------------SuckingPipe------------------------ */    
 #SuckingPipe {
     position: absolute;
@@ -655,6 +693,18 @@ body{
   transition-duration: 1s;
   rotate: 30deg; 
   opacity: 0%;
+}
+#Sucking-Pipe {
+  position: absolute;
+  top: 84%;
+  left: 30%;
+  opacity: 100%;
+  font-size: 55%;
+  text-align: center;
+  background-color: #c5c2c2;
+  padding: 0.1%;
+  border-radius: 3px;
+  font-weight: bold;
 }
 /* ---------------Text A, B------------------------ */ 
 #textAB {
@@ -685,3 +735,236 @@ body{
   pointer-events: none;
   opacity: 0.5;
 }
+
+/* =================================================== */
+#start{
+    position:absolute;
+    border-radius: 10%;
+    padding: 0.5%;
+    font-size: 1vw;
+    left: 90%;
+    top: 85.5%;
+    border: none;
+    background-color: rgb(0, 244, 16);
+    box-shadow: 1px 1px 0px 0.5px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    animation: blinking;
+    animation-duration: 1s infinite ;
+}
+
+#start:active{
+    scale: 0.9;
+    transition: all ease 0.2s;
+}
+
+#hindi{
+    position:absolute;
+    border-radius: 20%;
+    padding: 1%;
+    font-size: 1.5vh;
+    left: 45%;
+    top: 50%;
+    border: none;
+    background-color: rgb(33, 215, 239);
+    /*box-shadow: 2px 2px 0px 1px;*/
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#hindi:active{
+    scale: 0.9;
+}
+
+#eng{
+    position:absolute;
+    border-radius: 20%;
+    padding: 1%;
+    font-size: 1.5vh;
+    left: 55%;
+    top: 50%;
+    border: none;
+    background-color: rgb(33, 215, 239);
+    /*box-shadow: 2px 2px 0px 1px;*/
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#eng:active{
+    scale: 0.9;
+}
+
+#lselector{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2vh;
+    color: rgb(255, 255, 255);
+    left: 45.2%;
+    top: 40%;
+}
+
+#langselector{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    transition: all;
+    transition-duration: 1s;
+    visibility: visible;
+}
+
+.auto-hide {
+  animation: fadeOut 20s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+
+/* =======================For text======================= */
+/* Medium screens (Tablets) */
+@media (max-width: 1024px) {
+  #Ostwald-stand,
+  #Sucking-Pipe,
+  #pipette-text,
+  #weighing,
+  #measuring {
+    font-size: 25%;
+  }
+}
+
+/* Small screens (Large phones) */
+@media (max-width: 768px) {
+  #Ostwald-stand,
+  #Sucking-Pipe,
+  #pipette-text,
+  #weighing,
+  #measuring  {
+    font-size: 10%;
+  }
+}
+
+/* Extra small screens (Phones) */
+@media (max-width: 480px) {
+  #Ostwald-stand,
+  #Sucking-Pipe,
+  #pipette-text,
+  #weighing,
+  #measuring  {
+    font-size: 10%;
+  }
+}
+
+/* =======================Table data======================= */
+
+:root{
+      --bg:#f6f8fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#0f172a;
+      --accent-2:#2563eb;
+      --border:rgba(15,23,42,0.06);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+
+    /* Card */
+  #card {
+    width: 80%;
+    background: var(--card);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(15,23,42,0.08);
+    border: 1px solid var(--border);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: 0;              /* hidden initially */
+    pointer-events: none;    /* disable interaction */
+    transition: opacity 0.5s ease; 
+}
+
+
+    .card-header{
+      padding:20px 24px;
+      display:flex;
+      align-items:baseline;
+      gap:12px;
+      border-bottom:1px solid var(--border);
+    }
+    .title{font-size:18px; font-weight:600;}
+    .subtitle{font-size:13px; color:var(--muted); margin-top:2px;}
+
+    .card-body{padding:20px 24px;}
+
+    /* Table */
+    table{
+      width:100%;
+      border-collapse:collapse;
+      font-size:14px;
+      table-layout:fixed;
+    }
+    caption{
+      text-align:left;
+      padding-bottom:12px;
+      font-weight:600;
+      color:var(--accent-2);
+      caption-side:top;
+    }
+    thead th{
+      text-align:left;
+      font-size:13px;
+      color:var(--muted);
+      font-weight:600;
+      padding:12px 10px;
+      border-bottom:1px solid var(--border);
+    }
+    tbody td{
+      padding:12px 10px;
+      vertical-align:middle;
+      border-bottom:1px dashed var(--border);
+      word-wrap:break-word;
+    }
+
+    tbody tr:nth-child(even){ background:linear-gradient(90deg, rgba(37,99,235,0.02), transparent); }
+
+    .param{width:48%; font-weight:600;}
+    .symbol{width:16%; color:var(--muted); font-family:monospace;}
+    .value{width:20%; font-family:monospace;}
+    .unit{width:16%; color:var(--muted);}
+
+    /* Highlight final result */
+    .result-row td{ border-bottom:none; }
+    .result-badge{
+      display:inline-block;
+      padding:6px 10px;
+      background:linear-gradient(90deg,#0ea5e9,#60a5fa);
+      color:white;
+      border-radius:999px;
+      font-weight:700;
+      font-family:monospace;
+    }
+
+    /* Note */
+    .note{ margin-top:14px; font-size:13px; color:var(--muted); }
+
+    /* Responsive */
+    @media (max-width:600px){
+      .card{ padding-bottom:12px; }
+      thead{ display:none; }
+      tbody td{ display:block; padding:10px 12px; }
+      tbody td .label-mobile { display:block; font-weight:600; margin-bottom:6px; color:var(--muted); }
+      .param, .symbol, .value, .unit { width:100%; display:block; }
+      .result-badge{ font-size:15px; padding:8px 12px; }
+    }
+
+    /* Print tweak */
+    @media print {
+      body{ background: white; padding: 0; }
+      .card{ box-shadow:none; border:1px solid #ddd; }
+      .result-badge{ box-shadow:none; }
+    }

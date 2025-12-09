@@ -1,47 +1,8 @@
-// let timer = null;
-// let delayTimeout = null;
-// let isRunning = false;
-// let seconds = 0;
+// text remove
+setTimeout(() => {
+  document.getElementById("message").textContent = "";
+}, 20000); // 10 seconds
 
-// const timeDisplay = document.getElementById("time-display");
-// const toggleBtn = document.getElementById("toggleBtn");
-
-// function formatTime(sec) {
-//   const mins = String(Math.floor(sec / 60)).padStart(2, '0');
-//   const secs = String(sec % 60).padStart(2, '0');
-//   return `${mins}:${secs}`;
-// }
-
-// function updateDisplay() {
-//   timeDisplay.textContent = formatTime(seconds);
-// }
-
-// function startTimer() {
-//   timer = setInterval(() => {
-//     seconds += 1;
-//     updateDisplay();
-//   }, 1000 / 100); // 30x speed: 1 second increases every 33ms
-// }
-
-// function stopTimer() {
-//   clearInterval(timer);
-//   clearTimeout(delayTimeout);
-// }
-
-// toggleBtn.addEventListener("click", () => {
-//   if (isRunning) {
-//     stopTimer();
-//     toggleBtn.textContent = "Start Stopwatch";
-//     isRunning = false;
-//   } else {
-//     toggleBtn.textContent = "Wait 3 sec...";
-//     delayTimeout = setTimeout(() => {
-//       startTimer();
-//       toggleBtn.textContent = "Stop Stopwatch";
-//       isRunning = true;
-//     }, 3000);
-//   }
-// });
 
 // Stopwatch 1
  let timer1 = null;

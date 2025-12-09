@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Determine The Saponification Value of Oil</title>
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stopwatch.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stopwatch.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body id="body">
     <main class="main">
         <div class="header" id="header">
-          <h1 id="Instructions">Instructions :-</h1>
-          <h1 id="text"> lets start the experiment</h1>
+          <h1 id="Ins">Instructions :-</h1>
+          <h1 id="text"> Press start button to start the experiment</h1>
         </div>
         <div class="footer">
             <div id="experiment">
               <!-- ------------------------------  TABLES AND BACKGROUNDS  ----------------------- -->
-              <img id="Background" src="./images/background.png" alt="">
+              <img id="Background" src="images/Background.png" alt="">
               <!-- ------------------------------  empty Ostwalt Viscometer  ----------------------- -->
               <img id="initialOstwaltViscometer" class="flask" src="./images/initialOstwaltViscometer.png" alt="">
+              <p id="Ostwald-stand" class="auto-hide">Ostwald viscometer <br>on a stand</p>
+              
               <!-- ------------------------------  water Ostwalt Viscometer  ----------------------- -->
                <img id="distilledwaterOstwalneck" src="./images/distilledwaterostawilneck.png" alt="">
                <img id="distilledwaterOstwalfull" src="./images/distilledwaterostawilfull.png" alt="">
@@ -57,11 +59,13 @@
               <img id="turpentineOilhalf" class="flask" src="./images/turpentineOilhalf.png" alt="">
                <!-- ------------------------------Sucking pipe----------------------- -->
               <img id="SuckingPipe" class="disabled" onclick="functionTwo()"  src="./images/sucking pipe.png" alt="">
+              <p id="Sucking-Pipe" class="auto-hide">Sucking Pipe</p>
 
               <img id="SuckingPipe1" class="disabled" onclick="functionFive()"  src="./images/sucking pipe.png" alt="">
                <!-- ------------------------------pippete---------------------- -->
               <img id="epippete" onclick="functionOne()" src="./images/empty-pippete.png" alt="">
               <img id="fpippete" onclick="functionOne()" src="./images/pippete.png" alt="">
+              <p id="pipette-text" class="auto-hide">Pipette</p>
 
               
               <img id="epippete1" class="disabled" onclick="functionFour()" src="./images/empty-pippete.png" alt="">
@@ -73,6 +77,7 @@
               <img id="wheighing-machine" class="flask" src="./images/wheighing-machine.png" alt="">
               <button id="Obutton" class="disabled" onclick="functionSeven()" class="wm-button">ON</button>
               <button id="Tbutton" class="disabled" onclick="functionNine()" class="wm-button">TARE</button>
+              <p id="weighing" class="auto-hide">weighing-machine</p>
 
               <img id="initial0000" src="./images/Measure-0000.png" alt="">
               <img id="empty2050" src="./images/empty-2050.png" alt="">
@@ -82,6 +87,7 @@
               
               <!-- ------------------------------measuring-cylinder-200ml----------------------- -->
               <img id="measuringcylinder200ml" class="disabled" onclick="functionEighth()" src="./images/measuring-cylinder-200ml.png" alt="">
+              <p id="measuring"class="auto-hide">measuring cylinder</p>
               
               <!-- <img  id="waterfilled30ml" src="./images/waterfilled30ml.png" alt=""> -->
                <!-- <img  id="turpentineoilfilled30ml" src="./images/turpentineoilfilled30ml.png" alt="">-->
@@ -125,9 +131,107 @@
                 <p id="text-B">B</p>
               </div>
             </div>
+            <button id="start" onclick="start()">START</button>
         </div>
+
+        <!-----------------------------------         LANGUAGE SELECTOR            --------------------------------------------->
+        <!-- <div id="langselector">        
+            <h1 id="lselector">Please select your language</h1>
+            <button id="hindi" onclick="hindi1()">हिंदी</button>
+            <button id="eng" onclick="eng1()">ENG</button>
+        </div> -->
+
+      <article id="card" role="region" aria-labelledby="viscometer-title">
+        <header class="card-header">
+          <div>
+            <div id="viscometer-title" class="title">Ostwald Viscometer — Data & Calculation</div>
+            <div class="subtitle">Calculated viscosity of test liquid at 25 °C</div>
+          </div>
+        </header>
+
+        <section class="card-body">
+          <table aria-describedby="visco-caption">
+            <thead>
+              <tr>
+                <th>Parameter</th>
+                <th>Symbol</th>
+                <th>Value</th>
+                <th>Unit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="param">Flow time of test liquid</td>
+                <td class="symbol">t₁</td>
+                <td class="value">8.30</td>
+                <td class="unit">s</td>
+              </tr>
+
+              <tr>
+                <td class="param">Flow time of water</td>
+                <td class="symbol">t₂</td>
+                <td class="value">8.40</td>
+                <td class="unit">s</td>
+              </tr>
+
+              <tr>
+                <td class="param">Density of test liquid</td>
+                <td class="symbol">ρ₁</td>
+                <td class="value">1.260</td>
+                <td class="unit">g·cm⁻³</td>
+              </tr>
+
+              <tr>
+                <td class="param">Density of water</td>
+                <td class="symbol">ρ₂</td>
+                <td class="value">0.998</td>
+                <td class="unit">g·cm⁻³</td>
+              </tr>
+
+              <tr>
+                <td class="param">Viscosity of water (25 °C)</td>
+                <td class="symbol">η₂</td>
+                <td class="value">0.89</td>
+                <td class="unit">cP</td>
+              </tr>
+
+              <tr>
+                <td class="param">Weight of test liquid</td>
+                <td class="symbol">w₁</td>
+                <td class="value">60</td>
+                <td class="unit">g</td>
+              </tr>
+
+              <tr>
+                <td class="param">Weight of water</td>
+                <td class="symbol">w₂</td>
+                <td class="value">50.40</td>
+                <td class="unit">g</td>
+              </tr>
+
+              <tr>
+                <td class="param">Relative viscosity<br><small>(ρ₁·t₁)/(ρ₂·t₂)</small></td>
+                <td class="symbol">η₁ / η₂</td>
+                <td class="value">≈ 1.25</td>
+                <td class="unit">—</td>
+              </tr>
+
+              <tr class="result-row">
+                <td class="param">Calculated viscosity of test liquid</td>
+                <td class="symbol">η₁</td>
+                <td class="value"><span class="result-badge">1.11</span></td>
+                <td class="unit">cP (at 25 °C)</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="note">Notes: Calculation uses <code>η₁ = η₂ × (ρ₁·t₁) / (ρ₂·t₂)</code>. Values rounded to two decimal places where appropriate.</p>
+        </section>
+
+    </article>
     </main>
-    <script src="script.js"></script>
-    <script src="stopwatch.js" ></script>
+    <script  src="./script/stopwatch.js" ></script>
+    <script src="./script/update.js"></script>   <!-- MUST BE FIRST -->
+<script src="./script/script.js"></script>
 </body>
 </html>
