@@ -676,8 +676,8 @@ body{
     position: absolute;
     height: 10%;
     width: 5%;
-    top: 89%;
-    left: 18%;
+    top: 85%;
+    left: 24%;
     transition: all;
     transition-duration: 1s;
     rotate: 30deg; 
@@ -742,8 +742,8 @@ body{
     border-radius: 10%;
     padding: 0.5%;
     font-size: 1vw;
-    left: 90%;
-    top: 85.5%;
+    left: 93%;
+    top: 4.5%;
     border: none;
     background-color: rgb(0, 244, 16);
     box-shadow: 1px 1px 0px 0.5px;
