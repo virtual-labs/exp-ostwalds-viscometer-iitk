@@ -1,5 +1,5 @@
 /* Mobile devices (landscape only) */
-@media only screen and (max-width: 480px) and (orientation: landscape) {
+@media only screen and (max-width: 400px) and (orientation: landscape) {
     /* styles here */
 
 
@@ -661,8 +661,8 @@ body{
 }
 #pipette-text {
   position: absolute;
-  top: 95%;
-  left: 20%;
+  top: 84%;
+  left: 35%;
   opacity: 100%;
   font-size: 55%;
   text-align: center;
@@ -696,7 +696,7 @@ body{
 }
 #Sucking-Pipe {
   position: absolute;
-  top: 84%;
+  top: 89%;
   left: 30%;
   opacity: 100%;
   font-size: 55%;
