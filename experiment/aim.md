@@ -1,1 +1,1 @@
-### The aim of the experiment is to detremine the true density of the pharmaceutical powders by using liquid displacement method.
+Determination of Viscosity of a Given Liquid Using an Ostwald Viscometer

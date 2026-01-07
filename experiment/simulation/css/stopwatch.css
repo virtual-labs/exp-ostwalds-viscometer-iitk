@@ -1,0 +1,114 @@
+/* 
+.watch{
+    position: absolute;
+    height: 20%;
+    width: 13%;
+    top: 5%;
+    left: 80%;
+    background-color: #f9fcfe;
+    border: 2px solid #6d6e6e;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.stopwatch-wrapper {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+  }
+  
+  .time {
+    font-size: 250%;
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 8%;
+    
+  }
+
+  
+  .stopwatch-btn {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 4% 6%;
+    border: none;
+    border-radius: 30px;
+    
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .stopwatch-btn:hover {
+    background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+ */
+
+ .watch, .watch-two {
+  position: absolute;
+  height: 15%;
+  width: 11%;
+  top: 5%;
+  left: 80%;
+  background-color: #f9fcfe;
+  border: 2px solid #6d6e6e;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.watch {
+  top: 3%;
+  left: 80%;
+  opacity: 100%;
+}
+
+.watch-two {
+  top: 15%;
+  left: 80%;
+  opacity: 0%;
+}
+
+.stopwatch-wrapper, .stopwatch-wrapper-two {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10%;
+}
+
+.time, .time-two {
+  font-size: 150%;
+  font-weight: bold;
+  color: #e63946;
+  margin-bottom: 5%;
+}
+
+.stopwatch-btn, .stopwatch-btn-two {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  font-size: 100%;
+  font-weight: bold;
+  padding: 1% 4%;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.stopwatch-btn:hover, .stopwatch-btn-two:hover {
+  background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+/* ==============================WATCH 2========================= */
