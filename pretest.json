@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The property that represents a liquid’s internal resistance to flow is known as:",
+      "answers": {
+        "a": "Density",
+        "b": "Surface tension",
+        "c": "Viscosity",
+        "d": "Specific gravity"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The Ostwald viscometer works on the principle of:",
+      "answers": {
+        "a": "Bernoulli’s Theorem",
+        "b": "Poiseuille’s Law",
+        "c": "Newton’s Law of Viscosity",
+        "d": "Boyle’s Law"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. In an Ostwald viscometer, flow time of a liquid is measured between:",
+      "answers": {
+        "a": "Two pressure points",
+        "b": "Two temperature levels",
+        "c": "Two fixed marks on the viscometer",
+        "d": "Two density values"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The SI unit of viscosity is:",
+      "answers": {
+        "a": "Poise",
+        "b": "Pascal-second (Pa·s)",
+        "c": "dyne·s/cm²",
+        "d": "Newton per meter"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Temperature control is essential during viscosity measurement because:",
+      "answers": {
+        "a": "Viscosity increases with temperature",
+        "b": "Viscosity decreases with temperature",
+        "c": "Density increases with temperature",
+        "d": "Density remains constant with temperature"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

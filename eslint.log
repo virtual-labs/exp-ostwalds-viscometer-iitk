@@ -1,0 +1,22 @@
+
+/home/runner/work/exp-ostwalds-viscometer-iitk/exp-ostwalds-viscometer-iitk/experiment/simulation/script/script.js
+    2:16  warning  'update' is not defined                                no-undef
+    6:5   warning  'initialOstwalt' is assigned a value but never used    no-unused-vars
+   48:5   warning  'WMTB' is assigned a value but never used              no-unused-vars
+   54:5   warning  'WMliquid' is assigned a value but never used          no-unused-vars
+   73:5   warning  'MCwater30ml' is assigned a value but never used       no-unused-vars
+   75:5   warning  'MCturpentine30ml' is assigned a value but never used  no-unused-vars
+   91:7   warning  'Obutton' is assigned a value but never used           no-unused-vars
+   92:7   warning  'Tbutton' is assigned a value but never used           no-unused-vars
+  113:5   warning  'messcounter' is not defined                           no-undef
+  123:10  warning  'functionOne' is defined but never used                no-unused-vars
+  752:81  warning  'f13btn' is not defined                                no-undef
+  752:89  warning  'functionThirteen' is not defined                      no-undef
+
+/home/runner/work/exp-ostwalds-viscometer-iitk/exp-ostwalds-viscometer-iitk/experiment/simulation/script/update.js
+   2:5   warning  'lang' is assigned a value but never used  no-unused-vars
+  31:5   warning  'f' is assigned a value but never used     no-unused-vars
+  34:10  warning  'start' is defined but never used          no-unused-vars
+
+✖ 15 problems (0 errors, 15 warnings)
+
