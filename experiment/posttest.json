@@ -9,12 +9,6 @@
         "c": "Flow time of test liquid",
         "d": "Viscosity of water"
       },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
-      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -25,12 +19,6 @@
         "b": "0.89 cP",
         "c": "1.34 cP",
         "d": "1.50 cP"
-      },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -43,12 +31,7 @@
         "c": "Color of the liquid sample",
         "d": "Volume of the liquid taken"
       },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
-      },
+     
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -60,12 +43,7 @@
         "c": "Cooled to 0°C",
         "d": "Preheated to 50°C"
       },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -77,12 +55,7 @@
         "c": "The ratio of density and flow time of both liquids",
         "d": "Its surface tension with that of water"
       },
-      "explanations": {
-        "a": "Explanation",
-        "b": "Explanation",
-        "c": "Explanation",
-        "d": "Explanation"
-      },
+
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
