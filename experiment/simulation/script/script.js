@@ -16,6 +16,7 @@ var dwOneckfull07 = document.querySelector("#distilledwaterOstwalfull-07");
 var dwOneckfull08 = document.querySelector("#distilledwaterOstwalfull-08");
 var dwOneckfull09 = document.querySelector("#distilledwaterOstwalfull-09");
 var OVnull = document.querySelector("#nullOstwaltViscometer");
+
 var textAB = document.querySelector("#textAB");
 var TOOneck = document.querySelector("#turpentineoilOstwaltNeck");
 var TOOfull = document.querySelector("#turpentineoilOstwaltfull");
@@ -281,11 +282,11 @@ function functionThree() {
 
                                     enableNextStage(4, f4btn, functionFour);
                                     document.getElementById("function4").classList.remove("disabled");
-                                }, 1000);
-                            }, 1000);
-                        }, 1000);
-                    }, 1000);
-                }, 1500);
+                                }, 2200);
+                            }, 2200);
+                        }, 2200);
+                    }, 2200);
+                }, 2500);
             }, 1000);
         }, 1000);
     }, 1000);
@@ -486,11 +487,11 @@ function functionSix() {
                                     // ✔ FIXED unlock Stage 7 properly
                                     enableNextStage(7, f7btn, functionSeven);
                                     document.getElementById("function7").classList.remove("disabled");
-                                }, 1000);
-                            }, 1000);
-                        }, 1000);
-                    }, 1000);
-                }, 1300);
+                                }, 2200);
+                            }, 2200);
+                        }, 2200);
+                    }, 2200);
+                }, 2500);
             }, 1000);
         }, 1000);
     }, 1000);
