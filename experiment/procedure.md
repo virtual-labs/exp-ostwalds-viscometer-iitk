@@ -20,7 +20,7 @@
 
 ● Clean and dry the viscometer thoroughly before use.<br>
 ● Fill the viscometer with distilled water up to the mark using a pipette.<br>
-● Immerse the viscometer in a constant temperature water bath (25°C) for 5 minutes.<br>
+● After filling the viscometer with the test liquid, immerse it in a constant temperature water bath maintained at 25 °C for 5 minutes to allow thermal equilibrium before measurement.<br>
 ● Using a suction bulb, draw the water above the upper mark.<br>
 ● Start the stopwatch as the liquid crosses the upper mark and stop when it reaches the lower mark — record as t₂.<br>
 ● Repeat three times and take the mean value.<br>
