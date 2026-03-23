@@ -134,18 +134,17 @@
             <button id="start" onclick="start()">START</button>
         </div>
 
-        <!-----------------------------------         LANGUAGE SELECTOR            --------------------------------------------->
-        <!-- <div id="langselector">        
-            <h1 id="lselector">Please select your language</h1>
-            <button id="hindi" onclick="hindi1()">हिंदी</button>
-            <button id="eng" onclick="eng1()">ENG</button>
-        </div> -->
+        <!-----------------------------------         TABLE            --------------------------------------------->
 
       <article id="card" role="region" aria-labelledby="viscometer-title">
         <header class="card-header">
           <div>
-            <div id="viscometer-title" class="title">Ostwald Viscometer — Data & Calculation</div>
-            <div class="subtitle">Calculated viscosity of test liquid at 25 °C</div>
+            <div id="viscometer-title" class="title">
+              Ostwald Viscometer — Data & Calculation
+            </div>
+            <div class="subtitle">
+              Calculated viscosity of test liquid at 25 °C
+            </div>
           </div>
         </header>
 
@@ -159,18 +158,19 @@
                 <th>Unit</th>
               </tr>
             </thead>
+
             <tbody>
               <tr>
                 <td class="param">Flow time of test liquid</td>
                 <td class="symbol">t₁</td>
-                <td class="value">8.30</td>
+                <td class="value">15.30</td>
                 <td class="unit">s</td>
               </tr>
 
               <tr>
                 <td class="param">Flow time of water</td>
                 <td class="symbol">t₂</td>
-                <td class="value">8.40</td>
+                <td class="value">15.60</td>
                 <td class="unit">s</td>
               </tr>
 
@@ -210,25 +210,34 @@
               </tr>
 
               <tr>
-                <td class="param">Relative viscosity<br><small>(ρ₁·t₁)/(ρ₂·t₂)</small></td>
+                <td class="param">
+                  Relative viscosity
+                  <br>
+                  <small>(ρ₁·t₁)/(ρ₂·t₂)</small>
+                </td>
                 <td class="symbol">η₁ / η₂</td>
-                <td class="value">≈ 1.25</td>
+                <td class="value">≈ 1.24</td>
                 <td class="unit">—</td>
               </tr>
 
               <tr class="result-row">
                 <td class="param">Calculated viscosity of test liquid</td>
                 <td class="symbol">η₁</td>
-                <td class="value"><span class="result-badge">1.11</span></td>
+                <td class="value">
+                  <span class="result-badge">1.10</span>
+                </td>
                 <td class="unit">cP (at 25 °C)</td>
               </tr>
             </tbody>
           </table>
 
-          <p class="note">Notes: Calculation uses <code>η₁ = η₂ × (ρ₁·t₁) / (ρ₂·t₂)</code>. Values rounded to two decimal places where appropriate.</p>
+          <p class="note">
+            Notes: Calculation uses 
+            <code>η₁ = η₂ × (ρ₁·t₁) / (ρ₂·t₂)</code>.
+            Values rounded to two decimal places where appropriate.
+          </p>
         </section>
-
-    </article>
+      </article>
     </main>
     <script  src="./script/stopwatch.js" ></script>
     <script src="./script/update.js"></script>   <!-- MUST BE FIRST -->

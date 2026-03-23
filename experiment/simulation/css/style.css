@@ -231,7 +231,7 @@ body{
 #turpentineoilOstwaltNeck {
     position: absolute;
     height: 47%;
-    width: 20%;
+    width: 21.5%;
     top: 43%;
     left: 9%;
     transition: all;
@@ -281,7 +281,7 @@ body{
   #turpentineoilOstwaltfull-04 {
     position: absolute;
     height: 47%;
-    width: 21.95%;
+    width: 21.75%;
     top: 43%;
     left: 8.8%;
     transition: all;
@@ -291,7 +291,7 @@ body{
   #turpentineoilOstwaltfull-05 {
     position: absolute;
     height: 47%;
-    width: 21.95%;
+    width: 21.8%;
     top: 43%;
     left: 8.8%;
     transition: all;
@@ -301,7 +301,7 @@ body{
   #turpentineoilOstwaltfull-06 {
     position: absolute;
     height: 47%;
-    width: 21.95%;
+    width: 21.8%;
     top: 43%;
     left: 8.8%;
     transition: all;
@@ -311,7 +311,7 @@ body{
   #turpentineoilOstwaltfull-07 {
     position: absolute;
     height: 47%;
-    width: 21.95%;
+    width: 21.8%;
     top: 43%;
     left: 8.8%;
     transition: all;
@@ -321,7 +321,7 @@ body{
   #turpentineoilOstwaltfull-08 {
     position: absolute;
     height: 47%;
-    width: 21.95%;
+    width: 21.8%;
     top: 43%;
     left: 8.8%;
     transition: all;
@@ -331,7 +331,7 @@ body{
   #turpentineoilOstwaltfull-09 {
     position: absolute;
     height: 47%;
-    width: 21.95%;
+    width: 21.8%;
     top: 43%;
     left: 8.8%;
     transition: all;
@@ -676,8 +676,8 @@ body{
     position: absolute;
     height: 10%;
     width: 5%;
-    top: 85%;
-    left: 24%;
+    top: 89%;
+    left: 18%;
     transition: all;
     transition-duration: 1s;
     rotate: 30deg; 
@@ -697,7 +697,7 @@ body{
 #Sucking-Pipe {
   position: absolute;
   top: 89%;
-  left: 30%;
+  left: 22.5%;
   opacity: 100%;
   font-size: 55%;
   text-align: center;
